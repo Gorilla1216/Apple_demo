@@ -1,0 +1,147 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: Inter;
+}
+#nav-bar {
+    background-color: rgba(245, 245, 247, 0.8);
+    width: 1920px;
+    height: 44px;
+    padding-top: 10px;
+}
+#nav-bar a {
+    text-decoration: none;
+    color: #000000;
+}
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+    gap: 30px;
+
+}
+#nav-bar ul li a {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: -0.28px;  
+}
+#showcase_1{ 
+    background-color: linear-gradient(to bottom, #f5f5f7, #ffffff) ;
+}
+#showcase_1 p {
+    text-align: center;
+    padding:16px 0;
+}
+.container_1{
+    width: 1920px;
+    height: 692px;
+    background: url(/Web/img/Background_1.png) no-repeat center center/cover;
+}
+.container_1 .model, .container_2 .model{
+    color: #f5f5f7;
+    text-align: center;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_1 .model h1, .container_2 .model .h1{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: -0.28px;
+}
+.container_1 .model p, .container_2 .model p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+.container_1 .model .learn {
+    width: 123px;
+    height: 44px;
+    margin-left: -80px;
+    background-color: #0071e3;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container_1 .model .learn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container_1 .model .buy {
+    width: 68px;
+    height: 44px;
+    margin-top: -45px;
+    margin-left: 130px;
+    border: #2997ff solid 1px;
+    border-radius: 20px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_1 .model .buy a {
+    text-decoration: none;
+    color: #2997ff;
+    font-weight: 400;
+    font-size: 16px;
+}
+#showcase_2{ 
+    background-color:#f5f5f7;
+}
+#showcase_2 p {
+    text-align: center;
+    padding:16px 0;
+}
+.container_2{
+    width: 1920px;
+    height: 692px;
+    background: url(/Web/img/2_background.jpg) no-repeat center center/cover;
+}
+.container_2 .model .learn_1 {
+    width: 123px;
+    height: 44px;
+    margin-left: -80px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container_2 .model .learn_1 a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container_2 .model .buy_1 {
+    width: 68px;
+    height: 44px;
+    margin-top: -45px;
+    margin-left: 130px;
+    border: #ffffff solid 1px;
+    border-radius: 20px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_2 .model .buy_1 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 16px;
+}
